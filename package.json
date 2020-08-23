@@ -1,0 +1,33 @@
+{
+  "name": "siteonnativejs",
+  "version": "1.0.0",
+  "description": "js site constructor",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sekir0/SiteOnNativeJS.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sekir0/SiteOnNativeJS/issues"
+  },
+  "homepage": "https://github.com/Sekir0/SiteOnNativeJS#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}

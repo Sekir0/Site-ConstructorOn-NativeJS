@@ -1,5 +1,5 @@
 import './module'
+import './styles/main.css'
 
 console.log('I am index.js')
 
-document.querySelector('h1').style.color = 'red'
